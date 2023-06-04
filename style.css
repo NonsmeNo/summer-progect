@@ -1,0 +1,158 @@
+body {
+    font-family: Verdana;
+    background: -webkit-linear-gradient(90deg,#eee78c,#dbca65,#f3df2c,#fcd62f, #f3d007); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#eee78c,#dbca65,#f3df2c,#fcd62f, #f3d007);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+
+}
+
+header .block {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header .title {
+    width: 25%;
+    padding: 20px 10px 0 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+header .title a:hover {
+    color: rgb(194, 190, 190);
+}
+
+header .highlight a{
+    color: rgb(255, 0, 0);
+}
+
+.content {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.messages {
+    color: white;
+    text-align: center;
+    width: 500px;
+    padding: 20px 10px;
+    background-color: rgb(255, 0, 0);
+    margin: 50px auto;
+}
+
+.form1 {
+    margin: 60px auto;
+    width: 40%;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.form1 .form_title {
+    background: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.form1 .item {
+    margin: 20px auto;
+}
+
+.form1 .item input, .form1 .item2 select{
+    width: 300px;
+    margin-top: 10px;
+    height: 25px;
+    font-size: 18px;
+}
+
+.form1 .item2 select {
+    text-align: center;
+    background-color: #f1e59e;
+}
+.form1 .item2 {
+    margin: 20px auto;
+}
+
+.form1 button {
+    width: 150px;
+    height: 40px;
+    margin: 0 auto 30px auto;
+    
+}
+
+table {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    width: 800px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+
+    border-collapse: collapse;
+    margin: 0 auto 50px auto;
+}
+
+table td {
+    border: 1px solid grey;
+ }
+
+table img {
+    width: 25px;
+    height: 25px;
+}
+
+th, td {
+    padding: 10px 15px;
+ }
+
+ table .min {
+    width: 5%;
+ }
+
+ table input {
+    height: 25px;
+    width: 150px;
+    font-size: 18px;
+ }
+
+ .form2 .updelbtn button {
+    width: 150px;
+    height: 40px;
+    margin: 0 auto 30px auto;
+ }
+
+
+ .form3 {
+    margin: 300px auto;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 70px;
+ }
+
+ .form3 button{
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border-width: 0;
+ }
+
+ .form3 button:hover{
+    background-color: #f3d007;
+ }
+
